@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tp3" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/editeur_vectoriel" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/tp1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="alleg44" />
+			<Add library="libComdlg32.a" />
+		</Linker>
+		<Unit filename="cadre.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="cadre.h" />
+		<Unit filename="compalleg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="compalleg.h" />
+		<Unit filename="dessin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dessin.h" />
+		<Unit filename="editeur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="editeur.h" />
+		<Unit filename="file_explorer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="file_explorer.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="memoire.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="memoire.h" />
+		<Unit filename="menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="menu.h" />
+		<Unit filename="palette.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="palette.h" />
+		<Unit filename="point.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="point.h" />
+		<Unit filename="primitive.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="primitive.h" />
+		<Unit filename="projet.h" />
+		<Unit filename="ressources.rc">
+			<Option compilerVar="WINDRES" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
